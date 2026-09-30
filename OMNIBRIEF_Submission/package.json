@@ -1,0 +1,12 @@
+{
+  "name": "content-transformation-engine",
+  "version": "1.0.0",
+  "private": true,
+  "description": "AI-Powered Content Transformation Engine for SIH Hackathon",
+  "scripts": {
+    "server": "cd server && bun run dev",
+    "client": "cd client && bun run dev",
+    "dev": "concurrently \"bun run server\" \"bun run client\"",
+    "build": "cd client && bun run build"
+  }
+}
